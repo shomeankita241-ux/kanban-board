@@ -12,6 +12,7 @@
     "@apollo/client": "^3.13.9",
     "@apollo/client-integration-nextjs": "^0.12.3",
     "@nhost/apollo": "^9.0.0",
+    "@nhost/nhost-js": "^3.3.0",
     "@nhost/react": "^3.11.1",
     "@radix-ui/react-slot": "^1.2.3",
     "class-variance-authority": "^0.7.1",
@@ -19,7 +20,6 @@
     "graphql": "^16.11.0",
     "lucide-react": "^0.539.0",
     "next": "15.4.6",
-    "nhost": "^0.1.11",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "tailwind-merge": "^3.3.1"

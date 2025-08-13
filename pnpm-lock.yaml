@@ -17,6 +17,9 @@ importers:
       '@nhost/apollo':
         specifier: ^9.0.0
         version: 9.0.0(@apollo/client@3.13.9(@types/react@19.1.10)(graphql-ws@5.16.2(graphql@16.11.0))(graphql@16.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@nhost/nhost-js@3.3.0(graphql@16.11.0))
+      '@nhost/nhost-js':
+        specifier: ^3.3.0
+        version: 3.3.0(graphql@16.11.0)
       '@nhost/react':
         specifier: ^3.11.1
         version: 3.11.1(@types/react@19.1.10)(graphql@16.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -38,9 +41,6 @@ importers:
       next:
         specifier: 15.4.6
         version: 15.4.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      nhost:
-        specifier: ^0.1.11
-        version: 0.1.11
       react:
         specifier: 19.1.0
         version: 19.1.0
@@ -1650,9 +1650,6 @@ packages:
         optional: true
       sass:
         optional: true
-
-  nhost@0.1.11:
-    resolution: {integrity: sha512-gxINYpXtrrk/RsOluiu5+Gwoon0C7AXYqBZQP6AsT2eDAI4ceeick59Sy7cVoEbRuw8ftqibX1fk3tKNtBukjA==}
 
   node-fetch@2.6.13:
     resolution: {integrity: sha512-StxNAxh15zr77QvvkmveSQ8uCQ4+v5FkvNTj0OESmiHu+VRi/gXArXtkWMElOsOUNLtUEvI4yS+rdtOHZTwlQA==}
@@ -3803,8 +3800,6 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
-
-  nhost@0.1.11: {}
 
   node-fetch@2.6.13:
     dependencies:
